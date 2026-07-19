@@ -419,11 +419,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 475042fdf787ec04782d259ea3a36a08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GetCameraFeed
+  cameraAccess: {fileID: 0}
   displayImage: {fileID: 1458436268}
-  requestedWidth: 1280
-  requestedHeight: 720
-  requestedFPS: 30
-  useFrontCamera: 1
 --- !u!4 &1563562977
 Transform:
   m_ObjectHideFlags: 0

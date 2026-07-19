@@ -1,0 +1,5 @@
+E:/Git/PulseByXR/PulseByXR/.utmp/RelWithDebInfo/t2w2p1eb/arm64-v8a/CMakeFiles/edit_cache.dir
+E:/Git/PulseByXR/PulseByXR/.utmp/RelWithDebInfo/t2w2p1eb/arm64-v8a/CMakeFiles/rebuild_cache.dir
+E:/Git/PulseByXR/PulseByXR/.utmp/RelWithDebInfo/t2w2p1eb/arm64-v8a/GameActivity/CMakeFiles/game.dir
+E:/Git/PulseByXR/PulseByXR/.utmp/RelWithDebInfo/t2w2p1eb/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+E:/Git/PulseByXR/PulseByXR/.utmp/RelWithDebInfo/t2w2p1eb/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
