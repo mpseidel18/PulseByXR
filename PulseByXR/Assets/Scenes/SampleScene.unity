@@ -2497,6 +2497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1399747263}
   - component: {fileID: 1399747261}
+  - component: {fileID: 868322132}
   m_Layer: 0
   m_Name: CameraFeedManager
   m_TagString: Untagged
@@ -2514,10 +2515,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 475042fdf787ec04782d259ea3a36a08, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::GetCameraFeed
   cameraAccess: {fileID: 1970590729}
   displayImage: {fileID: 820855514}
+--- !u!114 &868322132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399747260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9cff3a3f6e44e6b8c637ecb306dc1e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::PulseMonitor
+  cameraAccess: {fileID: 1970590729}
+  roiWidthPercent: 0.18
+  roiHeightPercent: 0.18
+  bufferDurationSeconds: 15
+  minAnalysisWindowSeconds: 8
+  assumedMaxSampleRateHz: 90
+  analysisIntervalSeconds: 1
+  resampleRateHz: 30
+  minBpm: 42
+  maxBpm: 180
+  bpmStepSize: 1
+  confidenceThreshold: 4
 --- !u!4 &1399747263
 Transform:
   m_ObjectHideFlags: 0
